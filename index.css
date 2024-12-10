@@ -1,0 +1,166 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 100%;
+}
+.fix-head{
+    width: 100%;
+    height: 3vh;
+    background-color: #121212;
+    margin-top: -16px;
+    border-bottom: .5px solid whitesmoke;
+}
+.fix-head p{
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 5px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #121212;
+    
+}
+.logo{
+    height: 30px;
+    width: 150px;
+    margin-left: 15%;
+    padding-top: 2%;
+    display: flex;
+    float: left;
+}
+.nav_elements{
+    float: left;
+    margin-left: 5px;
+    display: flex;
+    padding-top: 25px;   
+}
+
+.nav_list{
+    color:#fffc;
+    list-style-type: none;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.icons{
+    margin-left: 80%;
+}
+.icon{
+    float: left;
+    height: 30px;
+    width: 30px;
+    padding-left: 20px;
+    padding-top: 40px;
+    cursor: pointer;
+}
+.books{
+    height: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.books img{
+    height: 400px;
+    width: 400px;
+
+}
+.founder{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 5%;
+}
+.founder img{
+    height: 527px;
+    width: 393px;
+    margin-left: 10%;
+    float: left;
+}
+.description_founder{
+    float: left;
+    width: 50%;
+}
+.description_founder h1{
+    margin-left: 10%;
+    margin-top: 15%;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #121212;
+}
+.description_founder p{
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5c5c5c;
+}
+.description_founder button{
+    height: 40px;
+    width: 120px;
+    background-color: #121212;
+    color: #fff;
+    border: none;
+    margin-left: 10%;
+}
+.contact{
+    width: 100%;
+    height: 350px;
+    background-color: #121212;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 30px;
+    border-bottom: 1px solid #5c5c5c;
+}
+.contacts{
+    color: #5c5c5c;
+    font-size: 25px;
+}
+.contact img{
+    height: 30px;
+    width: 30px;
+    padding-top: 30px;
+}
+#contact_us{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+}
+.c{
+    color: #fff;
+    font-size: 10px;
+    margin-top: 3%;
+}
+.element{
+    color: #fff;
+    cursor: pointer;
+    padding-left: 10px;
+    font-size: 10px;
+    margin-top: 3%;
+}
+.elements{
+    margin-top: 2.8%;
+}
+.list{
+    color: #fff;
+    display: inline;
+    padding-left: 10px;
+    font-size: 10px;
+}
